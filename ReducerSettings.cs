@@ -13,9 +13,7 @@ namespace Reducer
         public static bool DeleteSpacesAndTabs;
         public static bool DeleteNewLineSymbols;
         public static int SyllablesToHyphen;
-
         public static string HelpString = @"Помощь по работе из командной строки:
---------------
 Использование:
     1)Reducer [имя файла]
     2)Reducer -i имя файла [необязательные ключи (-o xxx -s -n ..)]
